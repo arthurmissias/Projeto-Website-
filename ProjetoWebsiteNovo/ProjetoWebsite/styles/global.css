@@ -1,0 +1,119 @@
+/* Header */
+header {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 1.5%;
+    background-color: #04052e;
+}
+
+header ol {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header ol li {
+    margin-right: 2%;
+}
+
+header ol li a {
+    text-decoration: none;
+    color: #DBD3D8;
+    font-weight: bold;
+}
+
+header ol li a:hover {
+    color: #b33951;
+}
+header .hunter_logo {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    width: 20%;
+    height: 20%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #04052e;
+    color: #DBD3D8;
+    font-size: 15px;
+}
+
+.info b {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+i {
+    margin-right: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 0.5%;
+        padding-bottom: 1.5%;
+        background-color: #04052e;
+    }
+    
+    header ol {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+    
+    header ol li {
+        margin-right: 2%;
+    }
+    
+    header ol li a {
+        text-decoration: none;
+        color: #DBD3D8;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    header ol li a:hover {
+        color: #b33951;
+    }
+    header .hunter_logo {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 1%;
+        width: 20%;
+        height: 20%;
+    } 
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 2%;
+        background-color: #04052e;
+        color: #DBD3D8;
+        font-size: 10px;
+    }
+    
+    .info b {
+        font-size: 10px;
+        vertical-align: middle;
+    }
+    
+    i {
+        margin-right: 2%;
+    }
+}

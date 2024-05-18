@@ -1,0 +1,166 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* William */
+.bottom-line {
+    display: block;
+    padding: 1.5%;
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    width: 30%;
+    border-bottom: 3px solid #B33951;
+}
+
+.description {
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+button {
+    padding: 2%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #B33951;
+    border-radius: 5px;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #B33951;
+    cursor: pointer;
+}
+
+.block {
+    background-image: url('../assets/media/background-pattern.png');
+    box-sizing: border-box;
+    padding: 1.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.hidden {
+    opacity: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    transition: opacity 0.4s;
+}
+
+.card1 {
+    background: rgba(0, 0, 0, 0.1) url('../assets/media/english_camp.jpg') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+    margin: 0 0.1% 20px;
+    padding: 2.5%;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.card1:hover {
+    background: rgba(0, 0, 0, 0.5) url('../assets/media/english_camp.jpg') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.card1:hover .hidden {
+    opacity: 1;
+}
+
+.card2 {
+    background: rgba(0, 0, 0, 0.1) url('../assets/media/from_hunter_to_the_world.png') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+    margin: 0 0.1% 20px;
+    padding: 2.5%;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.card2:hover {
+    background: rgba(0, 0, 0, 0.5) url('../assets/media/from_hunter_to_the_world.png') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.card2:hover .hidden {
+    opacity: 1;
+}
+
+.card3 {
+    background: rgba(0, 0, 0, 0.1) url('../assets/media/social_actions.jpg') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+    margin: 0 0.1% 20px;
+    padding: 2.5%;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.card3:hover {
+    background: rgba(0, 0, 0, 0.5) url('../assets/media/social_actions.jpg') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.card3:hover .hidden {
+    opacity: 1;
+}
+
+@media screen and (max-width: 400px) {
+    
+    .bottom-line{
+        font-size: 14px;
+    }
+    .description{
+        font-size: 14px;
+    }
+
+    .card1{
+        margin: 20px;
+        padding: 5%;
+        width: 80%;
+        height: 450px;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .card2{
+        margin: 20px;
+        padding: 5%;
+        width: 80%;
+        height: 450px;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .card3{
+        margin: 20px;
+        padding: 5%;
+        width: 80%;
+        height: 450px;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+
+    }
+}

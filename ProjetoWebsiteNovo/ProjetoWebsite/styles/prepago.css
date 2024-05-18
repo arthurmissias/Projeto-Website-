@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    margin: auto;
+    width: 40%;
+    border-bottom: 3px solid #B33951;
+}
+
+.bottom-line {
+    display: block;
+    padding: 1.5%;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.block {
+    background-image: url('../assets/media/background-pattern.png');
+    box-sizing: border-box;
+    padding: 1.5%;
+}
+
+.answer {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 21px;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    padding: 1.5%;
+}
+
+.answer p{
+    display: inline-block;
+    text-align: justify;
+    margin-left: 2%;
+}
+
+.answer img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    border: 3px solid #B33951;
+}
+
+.question-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.2) url('../assets/media/card_model.png') no-repeat center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+    margin: 0 0.5% 10px;
+    padding: 4%;
+    width: 15%;
+    border-radius: 15px;
+}
+
+.question {
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    transition: opacity 0.4s;
+}
+
+.card:hover {
+    background: #6e172a;
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.card:hover .question {
+    opacity: 1;
+}
+
+@media screen and (max-width: 500px) {
+    .bottom-line h2{
+        font-size: 15px;
+    }
+
+    .description{
+        font-size: 13px;
+    }
+
+    .answer{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .answer p{
+        text-align: center;
+    }
+
+    .answer b{
+        text-align: center;
+    }
+
+    .answer img{
+        height: 300px;
+        width: 320px;
+    }
+
+    .block b{
+        font-size: 13px;
+    }
+
+    .block p{
+        font-size: 13px;
+    }
+    
+    .question-container{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 20px;
+        padding: 5%;
+        width: 80%;
+        height: 220px;
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
